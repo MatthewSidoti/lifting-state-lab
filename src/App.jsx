@@ -36,7 +36,7 @@ const App = () => {
   return (
     <main>
       <h1>Burger Stacker</h1>
-      <section>
+      <section style={{display: 'flex'}}>
       
         <IngredientList ingredients={availableIngredients} addToBurger={addToBurger} />
         
